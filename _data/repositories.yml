@@ -1,12 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - v1neethnc
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - v1neethnc/advent-of-code-2019
+  - v1neethnc/leetcode-solutions
+  - v1neethnc/token-management-extended
+  - v1neethnc/project-euler-solutions
+  - v1neethnc/dwite-contest-solutions
+  - v1neethnc/google-kickstart-solutions
