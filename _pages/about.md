@@ -2,24 +2,25 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Computer Science Graduate Student at University of Maryland, Baltimore County.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>University of Maryland, Baltimore County</p>
+    <p>Baltimore, Maryland 21250</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+After living for the first 24 years of my life in India, I found my way to the United States in August 2021, where I am currently pursuing my Master's degree in Computer Science at University of Maryland, Baltimore County. This was something that was destined to happen, considering that I've spent so much time with computers for the last two decades. It was only over the last six years that I realized that I love working with data, which eventually took me down the path of data science and machine learning. And it is that very interest that drives me in pursuing projects, both personal and academic, related to these fields. At this point, I knew that it was only a matter of time before I zeroed in on higher education in the US, and so I eventually found my way to the computer science department at UMBC, where I now spend my time going into deeper waters of DS and ML, using academic projects as a way to get there.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+For most of my life before the US, and all of my self-aware years, I lived in Hyderabad, a city that I call home. My academic career had a shaky start, because I found myself in the infamous engineering rat race in my teens, and didn't find my way to the top. However, in hindsight, that was for the best because it helped me discover and pursue things on my own terms, which is why you'll probably now see me at quizzes with a book or my trusty Kindle by my side, or at my desk working on random projects or participating in competitive coding events for fun.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+What's in store for the future? Well, I will be graduating in Spring 2023, and am looking to work in positions that deal with data science or analysis, or work on machine learning related tasks. If you're interested in knowing more, you can visit the CV page or you can get in touch with me at my mail, and I'll be more than happy to reply.
+
+**PS: "NC" is an abbreviation of my surname, and also a pretty dope nickname I had back in high school.**

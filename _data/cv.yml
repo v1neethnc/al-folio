@@ -1,74 +1,112 @@
-- title: General Information
+- title: Who I Am
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
+    - name: Name
+      value: Vineeth NC
     - name: Date of Birth
-      value: 14th March 1879
+      value: 6th March 1997
     - name: Languages
-      value: English, German
+      value: English, Telugu, Hindi
+
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Masters of Science in Computer Science
+      institution: University of Maryland, Baltimore County
+      year: 2021 - 2023
+    - title: Diploma in Artiticial Intelligence and Machine Learning
+      institution: BITS Pilani, Hyderabad Campus 
+      year: 2020 - 2021
+    - title: Bachelor of Technology in Computer Science and Engineering
+      institution: Vardhaman College of Engineering, Hyderabad - JNTUH
+      year: 2014 - 2018
+
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Associate
+      institution: IT Wizlab, Hyderabad, India
+      year: 2018 - 2020
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Authored beginner and intermediate level Python courses.
+        - Wrote a beginner course for R.
+        - Contributed to designing and writing content for the company's Learning Management System product.
+        - title: "Wrote multiple beginner courses and labs pertaining to the following machine learning topics:"
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - Regression
+            - Feature Engineering
+            - Classification
+        - Handled sysadmin work for over 50 systems.
+
+    - title: Data Engineer - Intern
+      institution: Amazon, Hyderabad, India
+      year: 2017 - 2018
       description:
-        - Description 1.
-        - Description 2.
+        - Wrote, tested, and deployed ETL code to perform optimal data migration on the production environment.
+        - Managed the UAT environment completely and maintained the logs.
+        - Studied existing relational databases on Oracle and designed their counterparts for Amazon Redshift.
+        - Built reports on Amazon Quicksight based on specizalized views in Amazon Redshift.
+        - Authored whitepapers discussing the limitations of then-AWS technology in the context of the project.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Cybersecurity Researcher - Intern
+      institution: Spyry Technologies, Bengaluru, India
+      year: 2016 - 2017
       description:
+        - Learned and gained real time experience about vulnerability assessment and penetration testing.
+        - Conducted a web vulnerability assessment for a client and wrote a report regarding the different issues on the site.
+        - Built a sample unsecure website from scratch and implemented incremental cybersecurity measures.
+        - Identified and patched different issues on the client site like SQL Injection and XSS.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
 
-- title: Open Source Projects
+- title: Academic Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <b>Data Augmentation Comparison Study</b>
+      year: 2022/02 - 2022/05
+      description: Project to test the efficacy of an image classification training dataset with and without GAN generated data augmentation.
+    - title: <b>Fail-Silent Replicated Token Manager with Atomic Semantics </b>
+      year: 2022/04 - 2022/05
+      description: Project to build a client-server token management system that simulates a fail-silent system.
+    - title: <b>Benchmarking CNNs on Image Classification Task </b>
+      year: 2021/09 - 2021/12
+      description: Project to compare the performance of VGG16, VGG19, ResNet50, and ResNet101 on an image classification task.
+    - title: <b>Baltimore City Crime Data Dashboard</b>
+      year: 2021/09 - 2021/12
+      description: Project to construct a data dashboard to track and visualize crime statistics for Baltimore City.
+    - title: <b>Mediclaim Processing </b>
+      year: 2020/04 - 2020/05
+      description: Project to build and test classification models and neural networks to predict medical insurance claim acceptances.
 
-- title: Honors and Awards
+
+- title: Other Experience
+  type: time_table
+  contents:
+    - title: Podcast Editor
+      institution: Have I Made It Yet? - A Podcast for Filmmmakers
+      year: 2021 - Present
+      description:
+        - A passion project, part of the original founding team of the podcast.
+        - Edited over 90% of the first season.
+        - Currently editing the second season, which is awaiting release.
+
+    - title: Content Writer - Mathematics
+      institution: Ekluvya, Hyderabad, India
+      year: 2020 - 2021
+      description:
+        - Built a mathematics course for 9th-11th grade level students.
+        - Wrote 120 video scripts as a part of the course.
+        - Researched and implemented storytelling methodologies in teaching mathematics.
+
+    - title: Subject Matter Expert - Intern (Computer Science) 
+      institution: Dimentics Info Tech, Delhi, India
+      year: 2020 - 2020
+      description:
+        - Solved questions in programming, computer organization, and networks textbooks.
+        - Wrote original solutions to over 500 questions.
+
+- title: Competitions and Awards
   type: time_table
   contents:
     - year: 1921
