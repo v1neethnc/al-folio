@@ -94,7 +94,7 @@
   type: time_table
   contents:
     - title: <b>Data Augmentation Comparison Study</b>
-      year: 2022/02 - 2022/05
+      year: 2022/03 - 2022/05
       description: Project to test the efficacy of an image classification training dataset with and without GAN generated data augmentation.
     - title: <b>Fail-Silent Replicated Token Manager with Atomic Semantics </b>
       year: 2022/04 - 2022/05
@@ -145,19 +145,20 @@
         - Top 2 percentile of one million users worldwide in Project Euler.
     - year: 2017
       items: 
-        - Winner of multiple coding and public speaking events at Technolites-2k17, Vardhaman College of Engineering, Hyderabad, India
+        - Winner of multiple coding and public speaking events at Technolites-2k17, Vardhaman College of Engineering, Hyderabad, India.
     - year: 2016
       items: 
-        - Tied 3rd Place at South Zone Regionals, Quantum Code, Techfest in Hyderabad, India
-        - Winner of multiple coding and public speaking events at Technolites-2k16, Vardhaman College of Engineering, Hyderabad, India
+        - Tied 3rd Place at South Zone Regionals, Quantum Code, Techfest, IIT-B in Hyderabad, India.
+        - Winner of multiple coding and public speaking events at Technolites-2k16, Vardhaman College of Engineering, Hyderabad, India.
     - year: 2015
-      items: 
-        - National level Finalist - Excel 2013, Microsoft Office Specialist, Delhi, India
-        - 3rd Place at Nationals, Battlecode, Techfest at IIT-B, Mumbai, India
-        - 3rd Place at South Zone Regionals, Battlecode, Techfest in Hyderabad, India
+      items:
+        - Best Journalist winner, International Press department, Hyderabad MUN, Hyderabad, India.
+        - National level Finalist - Excel 2013, Microsoft Office Specialist, Delhi, India.
+        - 3rd Place at Nationals, Battlecode, Techfest at IIT-B, Mumbai, India.
+        - 3rd Place at South Zone Regionals, Battlecode, Techfest in Hyderabad, India.
     - year: 2014
       items: 
-        - Winner of Public Speaking competition by Centre For Good Governance, Government of India, at Hyderabad, India
+        - Winner of Public Speaking competition by Centre For Good Governance, Government of India, at Hyderabad, India.
     - year: 2011
       items: 
-        - Winner, Science Quiz, Indian Institution of Chemical Technology, Hyderabad, India 
+        - Winner, Science Quiz, Indian Institution of Chemical Technology, Hyderabad, India.
