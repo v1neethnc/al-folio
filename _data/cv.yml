@@ -1,10 +1,10 @@
-- title: Who I Am
+- title: General Information
   type: map
   contents:
     - name: Name
       value: Vineeth NC
     - name: Date of Birth
-      value: 6th March 1997
+      value: March 6, 1997
     - name: Languages
       value: English, Telugu, Hindi
 

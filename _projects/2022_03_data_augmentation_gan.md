@@ -12,6 +12,18 @@ category: academic
 Time Period: April, 2021 -- May, 2021
 <br><br>
 
+## Contents
+-----
+* [Introduction](#introduction)
+* [Approach](#approach)
+* [Implementation](#implementation)
+  * [Dataset](#dataset)
+  * [GAN Training](#gan-training)
+  * [Classification Model Training](#classification-model-training)
+* [Results](#results)
+* [Conclusion](#conclusion)
+<br><br>
+
 ## Introduction
 -----
 Any machine learning project requires a high quality training dataset, which involve data of the highest quality, and enough instances of it for the machine learning model to properly understand the dataset without developing any bias. That being said, when a model training is done on insufficient or imbalanced dataset, the neural networks perform very poorly because they do not learn enough from the training data. 

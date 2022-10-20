@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Computer Science Graduate Student at University of Maryland, Baltimore County.
+subtitle: Computer Science Graduate Student at <a href="https://umbc.edu/">University of Maryland, Baltimore County</a>.
 
 profile:
   align: right
