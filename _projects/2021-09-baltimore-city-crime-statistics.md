@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Baltimore City Crime Data Dashboard
-description: Project to construct a data dashboard to track and visualize crime statistics for Baltimore City..
+description: Project to construct a data dashboard to track and visualize crime statistics for Baltimore City.
 importance: 3
 img: assets/img/balt_city_crime/bcc_homepage.png
 category: academic
@@ -45,13 +45,13 @@ The major deliverable of this project is a platform developed and structured on 
 
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/balt_city_crime/bcc_homepage.png" title="Homepage of Project" class="img-fluid rounded z-depth-1" %}
-    </div>
+		{% include figure.html path="assets/img/balt_city_crime/bcc_homepage.png" title="Homepage of Project" class="img-fluid rounded z-depth-1" %}
+	</div>
 </div>
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0" style="text-align: center;vertical-align: middle;">
-        Homepage of Project
-    </div>
+		Homepage of Project
+	</div>
 </div>
 <br>
 
@@ -60,13 +60,13 @@ Considering the geographic nature of the crime incidents, an interactive map of 
 
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/balt_city_crime/d3_viz.png" title="D3 Visualization" class="img-fluid rounded z-depth-1" %}
-    </div>
+		{% include figure.html path="assets/img/balt_city_crime/d3_viz.png" title="D3 Visualization" class="img-fluid rounded z-depth-1" %}
+	</div>
 </div>
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0" style="text-align: center;vertical-align: middle;">
-        D3 Visualization
-    </div>
+		D3 Visualization
+	</div>
 </div>
 <br>
 
@@ -87,46 +87,46 @@ Several visualizations are created in Python using Matplotlib and seaborn librar
 | **Indoor and Outdoor Crimes by District** |
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/balt_city_crime/bcc_py_viz1.png" title="Incidents By Day grouped by Month" class="img-fluid rounded z-depth-1" %}
-    </div>
+		{% include figure.html path="assets/img/balt_city_crime/bcc_py_viz1.png" title="Incidents By Day grouped by Month" class="img-fluid rounded z-depth-1" %}
+	</div>
 </div>
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0" style="text-align: center;vertical-align: middle;">
-        Incidents By Day grouped by Month
-    </div>
+		Incidents By Day grouped by Month
+	</div>
 </div>
 <br>
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/balt_city_crime/bcc_py_viz2.png" title="Incidents By District grouped by Month" class="img-fluid rounded z-depth-1" %}
-    </div>
+		{% include figure.html path="assets/img/balt_city_crime/bcc_py_viz2.png" title="Incidents By District grouped by Month" class="img-fluid rounded z-depth-1" %}
+	</div>
 </div>
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0" style="text-align: center;vertical-align: middle;">
-        Incidents By District grouped by Month
-    </div>
+		Incidents By District grouped by Month
+	</div>
 </div>
 <br>
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/balt_city_crime/bcc_py_viz3.png" title="Indoor and Outdoor Crimes by Month" class="img-fluid rounded z-depth-1" %}
-    </div>
+		{% include figure.html path="assets/img/balt_city_crime/bcc_py_viz3.png" title="Indoor and Outdoor Crimes by Month" class="img-fluid rounded z-depth-1" %}
+	</div>
 </div>
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0" style="text-align: center;vertical-align: middle;">
-        Indoor and Outdoor Crimes by Month
-    </div>
+		Indoor and Outdoor Crimes by Month
+	</div>
 </div>
 <br>
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/balt_city_crime/bcc_py_viz4.png" title="Indoor and Outdoor Crimes by District" class="img-fluid rounded z-depth-1" %}
-    </div>
+		{% include figure.html path="assets/img/balt_city_crime/bcc_py_viz4.png" title="Indoor and Outdoor Crimes by District" class="img-fluid rounded z-depth-1" %}
+	</div>
 </div>
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0" style="text-align: center;vertical-align: middle;">
-        Indoor and Outdoor Crimes by District
-    </div>
+		Indoor and Outdoor Crimes by District
+	</div>
 </div>
 <br>
 

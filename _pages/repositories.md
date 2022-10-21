@@ -4,7 +4,7 @@ permalink: /repositories/
 title: repositories
 description: Statistics about my Github profile and a neat little hub that displays some, if not all, of the more significant repositories in my Github account.
 nav: true
-nav_order: 3
+nav_order: 4
 ---
 
 ## GitHub users

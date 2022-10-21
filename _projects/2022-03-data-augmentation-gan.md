@@ -44,21 +44,21 @@ The image classification model will be trained multiple times, with different da
 The training and testing of the models was done on the Macbook Pro M1 Processor. The Kaggle Intel Image Classification dataset is used for this project because it is well rounded both in terms of class distribution and the number of instances in both training and validation. The training dataset contains over 14000 images, and the validation dataset contains over 3000 images. While there is a test dataset, it is unlabelled. Since the given test dataset is unlabelled, we are splitting the validation dataset in a 7:3 ratio to create a development and a test dataset respectively.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gan_comp/train_distribution.png" title="Training Distribution" class="img-fluid rounded z-depth-1" %}
-    </div>
 	<div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gan_comp/test_distribution.png" title="Testing Distribution" class="img-fluid rounded z-depth-1" %}
-    </div>
+		{% include figure.html path="assets/img/gan_comp/train_distribution.png" title="Training Distribution" class="img-fluid rounded z-depth-1" %}
+	</div>
+	<div class="col-sm mt-3 mt-md-0">
+		{% include figure.html path="assets/img/gan_comp/test_distribution.png" title="Testing Distribution" class="img-fluid rounded z-depth-1" %}
+	</div>
 </div>
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0" style="text-align: center;vertical-align: middle;">
-        Training Dataset Distribution
-    </div>
 	<div class="col-sm mt-3 mt-md-0" style="text-align: center;vertical-align: middle;">
-        Testing Dataset Distribution
-    </div>
+		Training Dataset Distribution
+	</div>
+	<div class="col-sm mt-3 mt-md-0" style="text-align: center;vertical-align: middle;">
+		Testing Dataset Distribution
+	</div>
 </div>
 <br>
 
@@ -70,66 +70,66 @@ The [architecture](https://arxiv.org/pdf/1511.06434.pdf) chosen for the GAN is o
 Weights are randomly initialized before the training, with the discriminator being trained first on the input dataset for an epoch. The loss is then calculated and backpropagated through the generator to update its weight, after which the generator is trained on the original input dataset. After 200 epochs of training at a learning rate of 0.0002, a thousand random images are generated for every one of the six classes. Therefore, 6000 images are generated at the end of training. However, to ensure that we have sufficient data for this project, two batches of 6000 images each were generated.
 <br>
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gan_comp/buildings_200_epochs.png" title="Training Distribution" class="img-fluid rounded z-depth-1" %}
-    </div>
 	<div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gan_comp/forests_200_epochs.png" title="Training Distribution" class="img-fluid rounded z-depth-1" %}
-    </div>
+		{% include figure.html path="assets/img/gan_comp/buildings_200_epochs.png" title="Training Distribution" class="img-fluid rounded z-depth-1" %}
+	</div>
+	<div class="col-sm mt-3 mt-md-0">
+		{% include figure.html path="assets/img/gan_comp/forests_200_epochs.png" title="Training Distribution" class="img-fluid rounded z-depth-1" %}
+	</div>
 </div>
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0" style="text-align: center;vertical-align: middle;">
-        <b>Buildings Class Training</b>
-    </div>
 	<div class="col-sm mt-3 mt-md-0" style="text-align: center;vertical-align: middle;">
-        <b>Forests Class Training</b>
-    </div>
+		<b>Buildings Class Training</b>
+	</div>
+	<div class="col-sm mt-3 mt-md-0" style="text-align: center;vertical-align: middle;">
+		<b>Forests Class Training</b>
+	</div>
 </div>
 <br>
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gan_comp/glaciers_200_epochs.png" title="Training Distribution" class="img-fluid rounded z-depth-1" %}
-    </div>
 	<div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gan_comp/mountains_200_epochs.png" title="Training Distribution" class="img-fluid rounded z-depth-1" %}
-    </div>
+		{% include figure.html path="assets/img/gan_comp/glaciers_200_epochs.png" title="Training Distribution" class="img-fluid rounded z-depth-1" %}
+	</div>
+	<div class="col-sm mt-3 mt-md-0">
+		{% include figure.html path="assets/img/gan_comp/mountains_200_epochs.png" title="Training Distribution" class="img-fluid rounded z-depth-1" %}
+	</div>
 </div>
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0" style="text-align: center;vertical-align: middle;">
-        <b>Glaciers Class Training</b>
-    </div>
 	<div class="col-sm mt-3 mt-md-0" style="text-align: center;vertical-align: middle;">
-        <b>Mountains Class Training</b>
-    </div>
+		<b>Glaciers Class Training</b>
+	</div>
+	<div class="col-sm mt-3 mt-md-0" style="text-align: center;vertical-align: middle;">
+		<b>Mountains Class Training</b>
+	</div>
 </div>
 <br>
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gan_comp/seas_200_epochs.png" title="Training Distribution" class="img-fluid rounded z-depth-1" %}
-    </div>
 	<div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gan_comp/streets_200_epochs.png" title="Training Distribution" class="img-fluid rounded z-depth-1" %}
-    </div>
+		{% include figure.html path="assets/img/gan_comp/seas_200_epochs.png" title="Training Distribution" class="img-fluid rounded z-depth-1" %}
+	</div>
+	<div class="col-sm mt-3 mt-md-0">
+		{% include figure.html path="assets/img/gan_comp/streets_200_epochs.png" title="Training Distribution" class="img-fluid rounded z-depth-1" %}
+	</div>
 </div>
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0" style="text-align: center;vertical-align: middle;">
-        <b>Seas Class Training</b>
-    </div>
 	<div class="col-sm mt-3 mt-md-0" style="text-align: center;vertical-align: middle;">
-        <b>Streets Class Training</b>
-    </div>
+		<b>Seas Class Training</b>
+	</div>
+	<div class="col-sm mt-3 mt-md-0" style="text-align: center;vertical-align: middle;">
+		<b>Streets Class Training</b>
+	</div>
 </div>
 <br>
 
 The losses for training each class are plotted on a graph. There is a clear downward trend in the loss of the generator and the discriminator during the training process, with the spikes being the result of adjustment of weights. A sample of 64 generated images at the end of the training is also presented.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gan_comp/gen_img2.png" title="Generated Images Sample" class="img-fluid rounded z-depth-1" %}
-    </div>
+	<div class="col-sm mt-3 mt-md-0">
+		{% include figure.html path="assets/img/gan_comp/gen_img2.png" title="Generated Images Sample" class="img-fluid rounded z-depth-1" %}
+	</div>
 </div>
 <div class="caption">
-    Sample of Generated Images using GAN.
+	Sample of Generated Images using GAN.
 </div>
 
 ### Classification Model Training

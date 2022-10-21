@@ -2,7 +2,7 @@
 layout: page
 title: Benchmarking CNNs on Image Classification Task
 description: Project to compare the performance of VGG16, VGG19, ResNet50, and ResNet101 on an image classification task.
-importance: 3
+importance: 4
 img: assets/img/vgg_resnet/wandb_stats.png
 category: academic
 ---
@@ -37,21 +37,21 @@ This project is aimed at training different popular CNNs for a multi-class image
 The training and testing of the models was done on the default architecture that Google Colab provides. To performance a comprehensive evaluation, the ideal dataset is one that contains multiple classes, and has a sizeable training and testing dataset. To this end, the [Kaggle Intel Image Classification](https://www.kaggle.com/datasets/puneet6060/intel-image-classification) dataset seemed like the perfect match. This dataset over 14000 training images, and the validation dataset contains over 3000 images. There is a healthy class distribution of the six different classes. For the purposes of this experiment, the batch size was kept constant throughout the training and validation of all the models at 32 images per batch.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/vgg_resnet/training_distribution.png" title="Training Distribution" class="img-fluid rounded z-depth-1" %}
-    </div>
 	<div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/vgg_resnet/validation_distribution.png" title="Testing Distribution" class="img-fluid rounded z-depth-1" %}
-    </div>
+		{% include figure.html path="assets/img/vgg_resnet/training_distribution.png" title="Training Distribution" class="img-fluid rounded z-depth-1" %}
+	</div>
+	<div class="col-sm mt-3 mt-md-0">
+		{% include figure.html path="assets/img/vgg_resnet/validation_distribution.png" title="Testing Distribution" class="img-fluid rounded z-depth-1" %}
+	</div>
 </div>
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0" style="text-align: center;vertical-align: middle;">
-        Training Dataset Distribution
-    </div>
 	<div class="col-sm mt-3 mt-md-0" style="text-align: center;vertical-align: middle;">
-        Testing Dataset Distribution
-    </div>
+		Training Dataset Distribution
+	</div>
+	<div class="col-sm mt-3 mt-md-0" style="text-align: center;vertical-align: middle;">
+		Testing Dataset Distribution
+	</div>
 </div>
 <br><br>
 
@@ -66,50 +66,50 @@ To find the best among the aforementioned CNNs, the evaluation is done on two fr
 With a fixed batch size of 32, and images rescaled to 150 x 150, the ResNet50 and ResNet101 models were trained. The accompanying graph shows that the training set loss starts dropping to close to zero. Before the validation loss increases drastically, which signifies that the model is overfitting the training data, the training is stopped. That is why each model is trained for 20 epochs only. The training speed for ResNet50 and ResNet101 is observed to be 433ms/step and 772ms/step respectively.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/vgg_resnet/resnet50_training_stats.png" title="ResNet50 Training" class="img-fluid rounded z-depth-1" %}
-    </div>
+	<div class="col-sm mt-3 mt-md-0">
+		{% include figure.html path="assets/img/vgg_resnet/resnet50_training_stats.png" title="ResNet50 Training" class="img-fluid rounded z-depth-1" %}
+	</div>
 </div>
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0" style="text-align: center;vertical-align: middle;">
-        ResNet50 Training
-    </div>
+	<div class="col-sm mt-3 mt-md-0" style="text-align: center;vertical-align: middle;">
+		ResNet50 Training
+	</div>
 </div>
 <br>
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/vgg_resnet/resnet101_training_stats.png" title="ResNet101 Training" class="img-fluid rounded z-depth-1" %}
-    </div>
+		{% include figure.html path="assets/img/vgg_resnet/resnet101_training_stats.png" title="ResNet101 Training" class="img-fluid rounded z-depth-1" %}
+	</div>
 </div>
 <div class=row>
 	<div class="col-sm mt-3 mt-md-0" style="text-align: center;vertical-align: middle;">
-        ResNet101 Training
-    </div>
+		ResNet101 Training
+	</div>
 </div>
 
 ### VGG
 The base architecture was kept non-trainable to preserve the Imagenet weights, while new architecture on top of it was subject to the training process. The training images were converted to the standard VG616 sizes, which is 224x224 in 3 color channels. In order to make the best use of time and to avoid overfitting, the training was limited to 20 epochs. During training, it was observed that the training times for VGG16 and VGG19 was 122sec/epoch, where each epoch involved training the model, and calculating loss on validation dataset.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/vgg_resnet/vgg16_training_graphs.png" title="VGG16 Training" class="img-fluid rounded z-depth-1" %}
-    </div>
+	<div class="col-sm mt-3 mt-md-0">
+		{% include figure.html path="assets/img/vgg_resnet/vgg16_training_graphs.png" title="VGG16 Training" class="img-fluid rounded z-depth-1" %}
+	</div>
 </div>
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0" style="text-align: center;vertical-align: middle;">
-        VGG16 Training
-    </div>
+	<div class="col-sm mt-3 mt-md-0" style="text-align: center;vertical-align: middle;">
+		VGG16 Training
+	</div>
 </div>
 <br>
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/vgg_resnet/vgg19_training_graphs.png" title="VGG19 Training" class="img-fluid rounded z-depth-1" %}
-    </div>
+		{% include figure.html path="assets/img/vgg_resnet/vgg19_training_graphs.png" title="VGG19 Training" class="img-fluid rounded z-depth-1" %}
+	</div>
 </div>
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0" style="text-align: center;vertical-align: middle;">
-        VGG19 Training
-    </div>
+		VGG19 Training
+	</div>
 </div>
 <br><br>
 
@@ -128,13 +128,13 @@ While variance in the GPU utilization between VGG and ResNet is already document
 
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/vgg_resnet/wandb_stats.png" title="Resource Consumption Statistics" class="img-fluid rounded z-depth-1" %}
-    </div>
+		{% include figure.html path="assets/img/vgg_resnet/wandb_stats.png" title="Resource Consumption Statistics" class="img-fluid rounded z-depth-1" %}
+	</div>
 </div>
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0" style="text-align: center;vertical-align: middle;">
-        Resource Consumption Statistics
-    </div>
+		Resource Consumption Statistics
+	</div>
 </div>
 <br><br>
 

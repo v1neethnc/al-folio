@@ -108,22 +108,22 @@ The `logs` folder contains logs, with each server having its own dedicated log. 
 To test the code, a simple bash file is provided. Executing that file will run the complete code with multiple scenarios already hardcoded into the bash file. Tokens are created, read, written, dropped, and a scenario to enforce fail-silent behavior is also provided. The bash file execution looks like this:
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/token_mgmt/outputs_client_command_sh.png" title="Command Execution" class="img-fluid rounded z-depth-1" %}
-    </div>
+	<div class="col-sm mt-3 mt-md-0">
+		{% include figure.html path="assets/img/token_mgmt/outputs_client_command_sh.png" title="Command Execution" class="img-fluid rounded z-depth-1" %}
+	</div>
 </div>
 <div class="caption">
-    Command Execution
+	Command Execution
 </div>
 
 
 The server results are not printed onto the console. Instead, a log file for each server is created, to which the results and the activities of the servers are written into. For example, the log for the server running on the port 65000 shows the creation of the token 1020, with token state information being updated with the Write call. However, after the 10 second deadline for the fail-silent condition was met, the server starts to be unresponsive for the token 1020, which can be seen in the log.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/token_mgmt/server_65000_log.png" title="Log of server running on port 65000" class="img-fluid rounded z-depth-1" %}
-    </div>
+	<div class="col-sm mt-3 mt-md-0">
+		{% include figure.html path="assets/img/token_mgmt/server_65000_log.png" title="Log of server running on port 65000" class="img-fluid rounded z-depth-1" %}
+	</div>
 </div>
 <div class="caption">
-    Log of server running on port 65000
+	Log of server running on port 65000
 </div>
