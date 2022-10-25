@@ -26,7 +26,7 @@ Time Period: April, 2021 -- May, 2021
 
 ## Introduction
 -----
-Any machine learning project requires a high quality training dataset, which involve data of the highest quality, and enough instances of it for the machine learning model to properly understand the dataset without developing any bias. That being said, when a model training is done on insufficient or imbalanced dataset, the neural networks perform very poorly because they do not learn enough from the training data. 
+Any machine learning project requires a training and testing dataset, which contain data of the highest quality, and enough instances of it for the machine learning model to properly understand the dataset without developing any bias. That being said, when a model training is done on insufficient or imbalanced dataset, the neural networks perform very poorly because they do not learn enough from the training data. 
 
 This project is aimed at comparing the use of several ways to deal with insufficient data, with an increased on focus towards using Generative Adversarial Networks to augment the training dataset. We can use GANs to generate new images, which can then be added to the training dataset in order to improve the training process. Over the course of this project, we compare different data augmentation techniques to determine whether using GANs for such a task is viable or not.
 <br><br>

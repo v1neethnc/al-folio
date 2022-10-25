@@ -73,18 +73,6 @@ Considering the geographic nature of the crime incidents, an interactive map of 
 ### Python Visualizations
 Several visualizations are created in Python using Matplotlib and seaborn libraries, which are very versatile libraries that help in plotting a wide range of visualizations. In this part, we focused more on the temporal domain of the crime data and provided the trajectory of incidents over years, months, days of the week and hours of the day. Multiple visualizations are developed allowing the users to select the parameters to observe the crime.
 
-| ![Incidents By Day grouped by Month](../images/balt_city_crime/bcc_py_viz1.png "Incidents By Day grouped by Month") |
-|:--:|
-| **Incidents By Day grouped by Month** |
-| ![Incidents By District grouped by Month](../images/balt_city_crime/bcc_py_viz2.png "Incidents By District grouped by Month") |
-|:--:|
-| **Incidents By District grouped by Month** |
-| ![Indoor and Outdoor Crimes by Month](../images/balt_city_crime/bcc_py_viz3.png "Indoor and Outdoor Crimes by Month") |
-|:--:|
-| **Indoor and Outdoor Crimes by Month** |
-| ![Indoor and Outdoor Crimes by District](../images/balt_city_crime/bcc_py_viz4.png "Indoor and Outdoor Crimes by District") |
-|:--:|
-| **Indoor and Outdoor Crimes by District** |
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0">
 		{% include figure.html path="assets/img/balt_city_crime/bcc_py_viz1.png" title="Incidents By Day grouped by Month" class="img-fluid rounded z-depth-1" %}
