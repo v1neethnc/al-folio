@@ -5,7 +5,7 @@ permalink: /projects/
 description: Things I've done over the years, both academic and personal.
 nav: true
 nav_order: 2
-display_categories: [academic]
+display_categories: [academic, fun]
 horizontal: false
 ---
 

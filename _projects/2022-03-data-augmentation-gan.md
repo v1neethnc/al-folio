@@ -15,6 +15,7 @@ Time Period: April, 2021 -- May, 2021
 ## Contents
 -----
 * [Introduction](#introduction)
+* [Generative Adverserial Networks](#generative-adversarial-networks)
 * [Approach](#approach)
 * [Implementation](#implementation)
   * [Dataset](#dataset)
@@ -26,9 +27,14 @@ Time Period: April, 2021 -- May, 2021
 
 ## Introduction
 -----
-Any machine learning project requires a training and testing dataset, which contain data of the highest quality, and enough instances of it for the machine learning model to properly understand the dataset without developing any bias. That being said, when a model training is done on insufficient or imbalanced dataset, the neural networks perform very poorly because they do not learn enough from the training data. 
+Any machine learning project requires a training and testing dataset, which contain data of the highest quality, and enough instances of it for the machine learning model to properly understand the dataset without developing any bias. That being said, when a model training is done on insufficient or imbalanced dataset, the neural networks perform very poorly because they do not learn enough from the training data.
 
-This project is aimed at comparing the use of several ways to deal with insufficient data, with an increased on focus towards using Generative Adversarial Networks to augment the training dataset. We can use GANs to generate new images, which can then be added to the training dataset in order to improve the training process. Over the course of this project, we compare different data augmentation techniques to determine whether using GANs for such a task is viable or not.
+This project is aimed at comparing the use of several ways to deal with insufficient data, with an increased on focus towards using Generative Adversarial Networks to augment the training dataset. We can use Generative Adverserial Networks (GANs) to generate new images, which can then be added to the training dataset in order to improve the training process. Over the course of this project, we compare different data augmentation techniques to determine whether using GANs for such a task is viable or not.
+<br><br>
+
+## Generative Adversarial Networks
+-----
+GANs refer to a set of frameworks in machine learning that look for patterns in the input data and learn them for the purpose of being able to generate examples or data points that could have been a part of the original dataset. To ensure that the generated samples are a good representation of the data points in the dataset, the two components of GAN (generator and discriminator) are trained in a zero-sum game. The generator reads the input data, learns the patterns, and generates examples of its own. These examples are then sent to the discriminator, which takes on the task of identifying whether the data it is reading is fake or not. If the generator wins more than 50% of the time, then the discriminator is said to be fooled and the generated data is considered as a reasonably accurate representation of the original input dataset.
 <br><br>
 
 ## Approach

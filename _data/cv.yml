@@ -58,6 +58,13 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Lab Assistant
+      institution: University of Maryland, Baltimore County, USA
+      year: 2022 - Present
+      description:
+        - Contributing to projects pertaining to scientific visualiation in VR/MR.
+        - Maintaining UMBC's Pi Squared CAVE2 display wall.
+        - Collaborating on point cloud visualization projects with researchers from other universities. 
     - title: Research Associate
       institution: IT Wizlab, Hyderabad, India
       year: 2018 - 2020
