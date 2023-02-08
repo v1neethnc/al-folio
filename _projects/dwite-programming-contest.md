@@ -1,7 +1,7 @@
 ---
 layout: page
 title: DWITE Programming Contest Solutions
-description: Project to build and test classification models and neural networks to predict medical insurance claim acceptances.
+description: My solutions to DWITE programming contest, ongoing personal project.
 importance: 1
 # img: assets/img/balt_city_crime/bcc_homepage.png
 category: fun

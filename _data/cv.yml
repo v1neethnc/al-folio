@@ -62,9 +62,11 @@
       institution: University of Maryland, Baltimore County, USA
       year: 2022 - Present
       description:
-        - Contributing to projects pertaining to scientific visualiation in VR/MR.
-        - Maintaining UMBC's Pi Squared CAVE2 display wall.
-        - Collaborating on point cloud visualization projects with researchers from other universities. 
+        - Working for UMBC's CSEE Department in the capacity of a researcher for different projects.
+        - Contributing to work pertaining to scientific visualizations in VR/MR.
+        - Currently working on optimizing point cloud rendering for Unity.
+        - Converting existing implementations of high-speed LOD centered rendering for the project.
+        - Diagnosed the Pi-Squared Lab's CAVE2 wall in order to identify areas that needed repair and restore. 
     - title: Research Associate
       institution: IT Wizlab, Hyderabad, India
       year: 2018 - 2020
@@ -97,9 +99,18 @@
         - Identified and patched different issues on the client site like SQL Injection and XSS.
 
 
-- title: Academic Projects
+- title: Academic Projects and Papers
   type: time_table
   contents:
+    - title: <b>Training Vision-Language Models for Image Classification</b>
+      year: 2022/10 - 2022/12
+      description: Project to train a multimodal classification model that uses text and image data.
+    - title: <b>Computational Humor - A Survey of the Literature</b>
+      year: 2022/10 - 2022/12
+      description: Literature review to discuss work done across some significant papers in the field of computational humor..
+    - title: <b>Solar System Simulator to Model Celestial Motion and Predict Eclipses</b>
+      year: 2022/10 - 2022/12
+      description: Project to simulate a solar system from scratch and find equations of motion for celestial bodies.
     - title: <b>Data Augmentation Comparison Study</b>
       year: 2022/03 - 2022/05
       description: Project to test the efficacy of an image classification training dataset with and without GAN generated data augmentation.
