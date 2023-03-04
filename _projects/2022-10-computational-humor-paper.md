@@ -5,5 +5,5 @@ description: Literature review to discuss work done across some significant pape
 importance: 1
 # img: assets/img/balt_city_crime/bcc_homepage.png
 category: academic
-redirect: http://127.0.0.1:4000/assets/pdf/Comp_Humor_Paper.pdf
+redirect: https://v1neethnc.github.io/assets/pdf/Comp_Humor_Paper.pdf
 ---
