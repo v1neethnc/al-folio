@@ -2,7 +2,7 @@
 layout: page
 title: Baltimore City Crime Data Dashboard
 description: Project to construct a data dashboard to track and visualize crime statistics for Baltimore City.
-importance: 3
+importance: 4
 img: assets/img/balt_city_crime/bcc_homepage.png
 category: academic
 ---

@@ -2,7 +2,7 @@
 layout: page
 title: Data Augmentation Comparison Study
 description: Project to test the efficacy of an image classification training dataset with and without GAN generated data augmentation.
-importance: 1
+importance: 2
 img: assets/img/gan_comp/gen_img.png
 category: academic
 ---

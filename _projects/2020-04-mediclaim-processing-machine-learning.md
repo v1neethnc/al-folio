@@ -2,7 +2,7 @@
 layout: page
 title: Mediclaim Processing
 description: Project to build and test classification models and neural networks to predict medical insurance claim acceptances.
-importance: 5
+importance: 6
 # img: assets/img/balt_city_crime/bcc_homepage.png
 category: academic
 ---

@@ -2,7 +2,7 @@
 layout: page
 title: Fail-Silent Replicated Token Manager with Atomic Semantics
 description: Project to build a client-server token management system that simulates a fail-silent system.
-importance: 2
+importance: 3
 img: assets/img/token_mgmt/server_65000_log.png
 category: academic
 ---

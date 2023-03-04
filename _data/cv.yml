@@ -107,7 +107,7 @@
       description: Project to train a multimodal classification model that uses text and image data.
     - title: <b>Computational Humor - A Survey of the Literature</b>
       year: 2022/10 - 2022/12
-      description: Literature review to discuss work done across some significant papers in the field of computational humor..
+      description: Literature review to discuss work done across some significant papers in the field of computational humor.
     - title: <b>Solar System Simulator to Model Celestial Motion and Predict Eclipses</b>
       year: 2022/10 - 2022/12
       description: Project to simulate a solar system from scratch and find equations of motion for celestial bodies.

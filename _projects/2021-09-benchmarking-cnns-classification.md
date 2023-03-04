@@ -2,7 +2,7 @@
 layout: page
 title: Benchmarking CNNs on Image Classification Task
 description: Project to compare the performance of VGG16, VGG19, ResNet50, and ResNet101 on an image classification task.
-importance: 4
+importance: 5
 img: assets/img/vgg_resnet/wandb_stats.png
 category: academic
 ---
