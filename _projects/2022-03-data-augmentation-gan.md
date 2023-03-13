@@ -148,17 +148,52 @@ For data augmentation, the ImageDataGenerator from Keras was used to perform on-
 -----
 There are seven scenarios that we considered, the results of which are tabulated as follows:
 
-| Dataset &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;	| Training Proportion &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 	| Performance 	|
-|---	|---	|---	|
-| Original Data 	| 14034 	| 86.38% 	|
-| Traditional Augmentation (Training and Validation) 	| 14034 	| 67.07% 	|
-| Traditional Augmentation (Only Training) 	| 14034 	| 79.74% 	|
-| GAN generated images (one batch) 	| 6000 	| 61.94% 	|
-| GAN generated images (two batches) 	| 12000 	| 69.87% 	|
-| Training data + one GAN batch 	| 14034+6000 	| 84.26% 	|
-| Training data + two GAN batches 	| 14034+12000 	| 84.38% 	|
+<table class='table table-sm table-bordered'>
+	<thead>
+		<tr>
+			<th>Dataset</th>
+			<th>Training Proportion</th>
+			<th>Performance</th>
+		</tr>
+	</thead>
+	<tr>
+		<td>Original Data</td>
+		<td>14034</td>
+		<td>86.38%</td>
+	</tr>
+	<tr>
+		<td>Traditional Augmentation (Training and Validation)</td>
+		<td>14034</td>
+		<td>67.07%</td>
+	</tr>
+	<tr>
+		<td>Traditional Augmentation (Only Training)</td>
+		<td>14034</td>
+		<td>79.74%</td>
+	</tr>
+	<tr>
+		<td>GAN generated images (one batch)</td>
+		<td>6000</td>
+		<td>61.94%</td>
+	</tr>
+	<tr>
+		<td>GAN generated images (two batches)</td>
+		<td>12000</td>
+		<td>69.87%</td>
+	</tr>
+	<tr>
+		<td>Training data + one GAN batch</td>
+		<td>14034+6000</td>
+		<td>84.26%</td>
+	</tr>
+	<tr>
+		<td>Training data + two GAN batches</td>
+		<td>14034+12000</td>
+		<td>84.38%</td>
+	</tr>
+</table>
 
-<br><br>
+<br>
 
 ## Conclusion
 -----

@@ -20,6 +20,8 @@ Time Period: April, 2020 -- May, 2020
 * [Generating Machine Learning Models](#generating-machine-learning-models)
 * [Models Built](#models-built)
 * [Results](#results)
+  * [scikit-learn Models Comparison Report](#scikit-learn-models-comparison-report)
+  * [H2O Models Comparison Report](#h2o-models-comparison-report)
 <br><br>
 
 ## Introduction
@@ -39,9 +41,9 @@ The dataset provided resulted in a binary classification task as the result of t
 Multiple data preprocessing activities were performed on the dataset before the models were trained. The following are a few of the data preprocessing activities:
 
 * **Deleting the following:**
-  * Rows with invalid Denial Code
-  * Fields with over 60null values
-  * Dropping irrelevant features based on the input from domain expert
+	* Rows with invalid Denial Code
+	* Fields with over 60null values
+	* Dropping irrelevant features based on the input from domain expert
 * **Outlier Analysis:** To conduct outlier analysis, a few critical features were identified to generate boxplots for. After generating boxplots, outliers were identified and the corresponding data points were removed from the dataset. For example, generating a scatter plot between the Claim Charge Amount and Provider Payment Amount resulted in some rows where the provider paid more than the claim request. These rows are outliers and were removed.
 
 After imputing missing values, removing a few features and data points based on various parameters and inferences, the resultant dataset contained about 327k rows.
@@ -84,18 +86,106 @@ The second phase consisted of using the H2O library, AutoML, and a DNN. The foll
 
 ## Results
 -----
-**scikit-learn models comparison report:**
+### scikit-learn Models Comparison Report:
 
-|  	| Decision Tree 	| Decision Tree (SMOTE) 	| Random Forest 	| Random Forest (SMOTE) 	| SVM 	| SVM (SMOTE) 	| XGBoost - gbtree 	| XGBoost - gblinear 	| XGBoost - gbtree (SMOTE) 	| XGBoost - gblinear (SMOTE) 	|
-|---	|---	|---	|---	|---	|---	|---	|---	|---	|---	|---	|
-| Training Accuracy 	| 99.72 	| 99.65 	| 99.72 	| 99.65 	| 1.26 	| 64.31 	| 99.53 	| 98.74 	| 96.59 	| 86.59 	|
-| Testing Accuracy 	| 99.36 	| 97.42 	| 99.40 	| 97.45 	| 1.26 	| 52.83 	| 99.44 	| 98.74 	| 96.52 	| 91.73 	|
-| ROC 	| 89.70 	| 93.63 	| 95.97 	| 97.75 	| 49.32 	| 74.70 	| 99.35 	| 85.74 	| 99.26 	| 95.45 	|
-| Recall 	| 71.13 	| 85.21 	| 72.89 	| 85.56 	| 100.00 	| 77.29 	| 70.95 	| 0.00 	| 93.84 	| 86.09 	|
-| Precision 	| 76.23 	| 30.93 	| 77.97 	| 31.21 	| 1.26 	| 2.03 	| 82.08 	| 0.00 	| 25.74 	| 11.79 	|
-| F1 	| 73.59 	| 45.38 	| 75.34 	| 45.74 	| 2.48 	| 3.96 	| 76.11 	| 0.00 	| 40.39 	| 20.75 	|
+The following is a table listing the performance metric scores of different models.
 
-<br>
+<table class='table table-sm table-bordered'>
+	<thead>
+		<tr>
+			<th></th>
+			<th>Decision Tree</th>
+			<th>Decision Tree (SMOTE)</th>
+			<th>Random Forest</th>
+			<th>Random Forest (SMOTE)</th>
+			<th>SVM</th>
+			<th>SVM (SMOTE)</th>
+			<th>XGBoost - gbtree</th>
+			<th>XGBoost - gblinear</th>
+			<th>XGBoost - gbtree (SMOTE)</th>
+			<th>XGBoost - gblinear (SMOTE)</th>
+		</tr>
+	</thead>
+	<tr>
+		<th>Training Accuracy</th>
+		<td>99.72</td>
+		<td>99.65</td>
+		<td>99.72</td>
+		<td>99.65</td>
+		<td>1.26</td>
+		<td>64.31</td>
+		<td>99.53</td>
+		<td>98.74</td>
+		<td>96.59</td>
+		<td>86.59</td>
+	</tr>
+	<tr>
+		<th>Testing Accuracy</th>
+		<td>99.36</td>
+		<td>97.42</td>
+		<td>99.40</td>
+		<td>97.45</td>
+		<td>1.26</td>
+		<td>52.83</td>
+		<td>99.44</td>
+		<td>98.74</td>
+		<td>96.52</td>
+		<td>91.73</td>
+	</tr>
+	<tr>
+		<th>ROC</th>
+		<td>89.70</td>
+		<td>93.63</td>
+		<td>95.97</td>
+		<td>97.75</td>
+		<td>49.32</td>
+		<td>74.70</td>
+		<td>99.35</td>
+		<td>85.74</td>
+		<td>99.26</td>
+		<td>95.45</td>
+	</tr>
+	<tr>
+		<th>Recall</th>
+		<td>71.13</td>
+		<td>85.21</td>
+		<td>72.89</td>
+		<td>85.56</td>
+		<td>100.00</td>
+		<td>77.29</td>
+		<td>70.95</td>
+		<td>0.00</td>
+		<td>93.84</td>
+		<td>86.09</td>
+	</tr>
+	<tr>
+		<th>Precision</th>
+		<td>76.23</td>
+		<td>30.93</td>
+		<td>77.97</td>
+		<td>31.21</td>
+		<td>1.26</td>
+		<td>2.03</td>
+		<td>82.08</td>
+		<td>0.00</td>
+		<td>25.74</td>
+		<td>11.79</td>
+	</tr>
+	<tr>
+		<th>F1</th>
+		<td>73.59</td>
+		<td>45.38</td>
+		<td>75.34</td>
+		<td>45.74</td>
+		<td>2.48</td>
+		<td>3.96</td>
+		<td>76.11</td>
+		<td>0.00</td>
+		<td>40.39</td>
+		<td>20.75</td>
+	</tr>
+</table>
+
 There's two ways of looking at this: First, if the objective of the project is to reduce administrative costs, the focus is to correctly predict the denials i.e. to reduce False Negatives. So, using Recall as the defining evaluation metric, following are the best models:
 * XGBoost with gbtree (SMOTE)
 * Random Forest (SMOTE)
@@ -106,19 +196,114 @@ Second, if we are supposed to take the provider concerns into consideration, cor
 * Random Forest
 * Decision Tree
 
-**H2O models comparison report:**
-
-|  	| H2O-GB 	| H2O-GB (BC=True) 	| H2O-RF 	| H2O-RF (BC=True) 	| H2O-XG 	| Stacked Ensemble-1 	| Stacked Ensemble-2 	|  AutoML 	| DNN 	|
-|---	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|---	|:---:	|
-| Training Accuracy 	| 99.35	| 93.23	| 99.16	| 92.31	| 99.43	| 99.52	| 99.23	| 99.37	| 92.25	|
-| Testing Accuracy 	| 99.25	| 99.15	| 99.18	| 99.12	| 99.32	| 99.32	| 99.12	| 99.34	| 99.14	|
-| ROC 	| 98.01	| 98.11	| 97.54	| 98.10	| 98.96	| 98.19	| 96.35	| 98.16	| 97.83	|
-| Recall 	| 71.75	| 52.58	| 70.56	| 52.84	| 72.98.	| 74.32	| 64.03	| 70.05	| 68.86	|
-| Precision 	| 63.53	| 80.88	| 55.57	| 73.98	| 68.84.	| 68.14	| 57.34	| 67.07	| 57.16	|
-| F1 	| 67.35	| 63.73	| 62.17	| 61.65	| 70.02	| 71.09	| 60.5	| 68.53	| 62.47	|
-| Logloss 	| 2.23	| 2.76	| 2.72	| 2.89	| 2.23	| 2.73	| 3.77	| 2.33	| 4.08	|
-
 <br>
+
+### H2O Models Comparison Report:
+
+The following is a table listing the performance metric scores of different models.
+
+<table class='table table-sm table-bordered'>
+	<thead>
+		<tr>
+			<th></th>
+			<th>H2O-GB</th>
+			<th>H2O-GB (BC=True)</th>
+			<th>H2O-RF</th>
+			<th>H2O-RF (BC=True)</th>
+			<th>H2O-XG</th>
+			<th>Stacked Ensemble-1</th>
+			<th>Stacked Ensemble-2</th>
+			<th>AutoML</th>
+			<th>DNN</th>
+		</tr>
+	</thead>
+	<tr>
+		<th>Training Accuracy</th>
+		<td>99.35</td>
+		<td>93.23</td>
+		<td>99.16</td>
+		<td>92.31</td>
+		<td>99.43</td>
+		<td>99.52</td>
+		<td>99.23</td>
+		<td>99.37</td>
+		<td>92.25</td>
+	</tr>
+	<tr>
+		<th>Testing Accuracy</th>
+		<td>99.25</td>
+		<td>99.15</td>
+		<td>99.18</td>
+		<td>99.12</td>
+		<td>99.32</td>
+		<td>99.32</td>
+		<td>99.12</td>
+		<td>99.34</td>
+		<td>99.14</td>
+	</tr>
+	<tr>
+		<th>ROC</th>
+		<td>98.01</td>
+		<td>98.11</td>
+		<td>97.54</td>
+		<td>98.10</td>
+		<td>98.96</td>
+		<td>98.19</td>
+		<td>96.35</td>
+		<td>98.16</td>
+		<td>97.83</td>
+	</tr>
+	<tr>
+		<th>Recall</th>
+		<td>71.75</td>
+		<td>52.58</td>
+		<td>70.56</td>
+		<td>52.84</td>
+		<td>72.98.</td>
+		<td>74.32</td>
+		<td>64.03</td>
+		<td>70.05</td>
+		<td>68.86</td>
+	</tr>
+	<tr>
+		<th>Precision</th>
+		<td>63.53</td>
+		<td>80.88</td>
+		<td>55.57</td>
+		<td>73.98</td>
+		<td>68.84.</td>
+		<td>68.14</td>
+		<td>57.34</td>
+		<td>67.07</td>
+		<td>57.16</td>
+	</tr>
+	<tr>
+		<th>F1</th>
+		<td>67.35</td>
+		<td>63.73</td>
+		<td>62.17</td>
+		<td>61.65</td>
+		<td>70.02</td>
+		<td>71.09</td>
+		<td>60.5</td>
+		<td>68.53</td>
+		<td>62.47</td>
+	</tr>
+	<tr>
+		<th>Logloss</th>
+		<td>2.23</td>
+		<td>2.76</td>
+		<td>2.72</td>
+		<td>2.89</td>
+		<td>2.23</td>
+		<td>2.73</td>
+		<td>3.77</td>
+		<td>2.33</td>
+		<td>4.08</td>
+	</tr>
+</table>
+
+
 Taking the same two perspectives as above for H2O models as well, we can determine the following. For the first perspective, where administrative costs are to be reduced, then the following are the best models:
 * H2O Gradient Boosting -- H2O-GB (BC=True)
 * H2O RandomForestEstimator -- H2O-RF (BC=True)

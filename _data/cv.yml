@@ -47,7 +47,7 @@
     - title: Masters of Science in Computer Science
       institution: University of Maryland, Baltimore County
       year: 2021 - 2023
-    - title: Diploma in Artiticial Intelligence and Machine Learning
+    - title: Diploma in Artificial Intelligence and Machine Learning
       institution: BITS Pilani, Hyderabad Campus 
       year: 2020 - 2021
     - title: Bachelor of Technology in Computer Science and Engineering
@@ -114,16 +114,16 @@
     - title: <b>Data Augmentation Comparison Study</b>
       year: 2022/03 - 2022/05
       description: Project to test the efficacy of an image classification training dataset with and without GAN generated data augmentation.
-    - title: <b>Fail-Silent Replicated Token Manager with Atomic Semantics </b>
+    - title: <b>Fail-Silent Replicated Token Manager with Atomic Semantics</b>
       year: 2022/04 - 2022/05
       description: Project to build a client-server token management system that simulates a fail-silent system.
-    - title: <b>Benchmarking CNNs on Image Classification Task </b>
+    - title: <b>Benchmarking CNNs on Image Classification Task</b>
       year: 2021/09 - 2021/12
       description: Project to compare the performance of VGG16, VGG19, ResNet50, and ResNet101 on an image classification task.
     - title: <b>Baltimore City Crime Data Dashboard</b>
       year: 2021/09 - 2021/12
       description: Project to construct a data dashboard to track and visualize crime statistics for Baltimore City.
-    - title: <b>Mediclaim Processing </b>
+    - title: <b>Mediclaim Processing</b>
       year: 2020/04 - 2020/05
       description: Project to build and test classification models and neural networks to predict medical insurance claim acceptances.
 
