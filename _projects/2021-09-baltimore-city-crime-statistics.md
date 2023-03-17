@@ -30,7 +30,7 @@ From the award-winning crime drama “The Wire”, to the site of the 2015 Fredd
 
 ## Dataset Information
 -----
-In January 2021, current Baltimore mayor Brandon Scott re-launched the [Open-Baltimore](https://data.baltimorecity.gov/datasets/baltimore::part-1-crime-data-/explore) data project with policing transparency in mind, which provides us with Service calls, Crime, Arrest, and incident data for the city of Baltimore. The crime dataset is daily updated from October 30th, 1963, till the present.
+In January 2021, current Baltimore mayor Brandon Scott re-launched the [Open-Baltimore](https://data.baltimorecity.gov/datasets/baltimore::part-1-crime-data-/explore) data project with policing transparency in mind, which provides us with Service calls, Crime, Arrest, and incident data for the city of Baltimore. The crime dataset is upated daily, with the earliest record ranging back to October 30th, 1963.
 <br><br>
 
 ## Goals
@@ -45,7 +45,7 @@ The major deliverable of this project is a platform developed and structured on 
 
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0">
-		{% include figure.html path="assets/img/balt_city_crime/bcc_homepage.png" title="Homepage of Project" class="img-fluid rounded z-depth-1" %}
+		{% include figure.html path="assets/img/balt_city_crime/bcc_homepage.png" title="Homepage of Project" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
 <div class="row">
@@ -62,7 +62,7 @@ Considering the geographic nature of the crime incidents, an interactive map of 
 In the following visualization, the locations of different types of crimes over a specified time range is displayed against a map of Baltimore City. The website contains a legend that informs the user about the significance of each color, and generates the visualization after the time range is specified.
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0">
-		{% include figure.html path="assets/img/balt_city_crime/d3_viz.png" title="D3 Visualization" class="img-fluid rounded z-depth-1" %}
+		{% include figure.html path="assets/img/balt_city_crime/d3_viz.png" title="D3 Visualization" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
 <div class="row">
@@ -74,7 +74,7 @@ In the following visualization, the locations of different types of crimes over 
 The following map is generated using D3.js, Baltimore City crime data geojson, and the topojson of Baltimore City neighborhoods. The map uses Albers projection. This visualization displays points of the crime on the Baltimore City map.
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0">
-		{% include figure.html path="assets/img/balt_city_crime/d3_albers.png" title="D3 Albers Visualization" class="img-fluid rounded z-depth-1" %}
+		{% include figure.html path="assets/img/balt_city_crime/d3_albers.png" title="D3 Albers Visualization" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
 <div class="row">
@@ -91,7 +91,7 @@ Several visualizations are created in Python using Matplotlib and seaborn librar
 In the following plot, it can be inferred that the Northeast and Southeast districts are the two most crime-infested districts. The Western district is by far the safest, with the Eastern district being a close second.
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0">
-		{% include figure.html path="assets/img/balt_city_crime/district_month_dist.png" title="Month Wise Crime Count Distribution across Districts" class="img-fluid rounded z-depth-1" %}
+		{% include figure.html path="assets/img/balt_city_crime/district_month_dist.png" title="Month Wise Crime Count Distribution across Districts" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
 <div class="row">
@@ -103,7 +103,7 @@ In the following plot, it can be inferred that the Northeast and Southeast distr
 In the following visualizations, a swarmplot is plotted against its corresponding boxplot in order to show the user the distribution of data points. These data points are labeled as well, thereby adding another layer of information to the visualization. By contrasting a coloured swarmplot against its boxplot, it helps the user determine distribution of crime against different categories, such as days of the week and districts, as shown. 
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0">
-		{% include figure.html path="assets/img/balt_city_crime/bcc_py_viz1.png" title="Incidents By Day grouped by Month" class="img-fluid rounded z-depth-1" %}
+		{% include figure.html path="assets/img/balt_city_crime/bcc_py_viz1.png" title="Incidents By Day grouped by Month" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
 <div class="row">
@@ -114,7 +114,7 @@ In the following visualizations, a swarmplot is plotted against its correspondin
 <br>
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0">
-		{% include figure.html path="assets/img/balt_city_crime/bcc_py_viz2.png" title="Incidents By District grouped by Month" class="img-fluid rounded z-depth-1" %}
+		{% include figure.html path="assets/img/balt_city_crime/bcc_py_viz2.png" title="Incidents By District grouped by Month" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
 <div class="row">
@@ -126,7 +126,7 @@ In the following visualizations, a swarmplot is plotted against its correspondin
 Simple line graphs were used to show the trend of indoor and outdoor crimes across different months of the year in the time range specified by the user. This is instrumental in understanding the general trends and helps the police determine where to spend resources at different times of the year. For example, the significantly higher number of outdoor crimes during July - October period followed by a significant dip in the next three months implies that weather is a significant factor in the number of outdoor crimes committed. This can be used as a launching point to determine the counties or sections of the cities with higher crime during these time periods and ensure better policing in the area to help make the community safer.
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0">
-		{% include figure.html path="assets/img/balt_city_crime/bcc_py_viz3.png" title="Indoor and Outdoor Crimes by Month" class="img-fluid rounded z-depth-1" %}
+		{% include figure.html path="assets/img/balt_city_crime/bcc_py_viz3.png" title="Indoor and Outdoor Crimes by Month" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
 <div class="row">
@@ -138,7 +138,7 @@ Simple line graphs were used to show the trend of indoor and outdoor crimes acro
 The above nightingale rose chart visualization shows the crime count per hour. It is observed that crime from 1AM to 11AM is almost half of the crime occurring in the rest of the day (noon, evening upto midnight). This seems intuitive as most of the crimes occur outside of sleeping hours. However, it would be interesting to observe the burglaries, theft, and larceny separately in the same chart, by filtering using crime types in order to determine the time of day when they are the most frequent. This information can be used in effective patrolling and policing at specific times of the day where stores vulnerable to such crimes are present.
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0">
-		{% include figure.html path="assets/img/balt_city_crime/nightingale_map.png" title="Nightingale Rose Chart of Crime Count per Hour" class="img-fluid rounded z-depth-1" %}
+		{% include figure.html path="assets/img/balt_city_crime/nightingale_map.png" title="Nightingale Rose Chart of Crime Count per Hour" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
 <div class="row">

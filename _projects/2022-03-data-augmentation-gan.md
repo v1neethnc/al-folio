@@ -51,10 +51,10 @@ The training and testing of the models was done on the Macbook Pro M1 Processor.
 
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0">
-		{% include figure.html path="assets/img/gan_comp/train_distribution.png" title="Training Distribution" class="img-fluid rounded z-depth-1" %}
+		{% include figure.html path="assets/img/gan_comp/train_distribution.png" title="Training Distribution" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 	<div class="col-sm mt-3 mt-md-0">
-		{% include figure.html path="assets/img/gan_comp/test_distribution.png" title="Testing Distribution" class="img-fluid rounded z-depth-1" %}
+		{% include figure.html path="assets/img/gan_comp/test_distribution.png" title="Testing Distribution" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
 
@@ -77,10 +77,10 @@ Weights are randomly initialized before the training, with the discriminator bei
 <br>
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0">
-		{% include figure.html path="assets/img/gan_comp/buildings_200_epochs.png" title="Training Distribution" class="img-fluid rounded z-depth-1" %}
+		{% include figure.html path="assets/img/gan_comp/buildings_200_epochs.png" title="Training Distribution" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 	<div class="col-sm mt-3 mt-md-0">
-		{% include figure.html path="assets/img/gan_comp/forests_200_epochs.png" title="Training Distribution" class="img-fluid rounded z-depth-1" %}
+		{% include figure.html path="assets/img/gan_comp/forests_200_epochs.png" title="Training Distribution" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
 <div class="row">
@@ -94,10 +94,10 @@ Weights are randomly initialized before the training, with the discriminator bei
 <br>
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0">
-		{% include figure.html path="assets/img/gan_comp/glaciers_200_epochs.png" title="Training Distribution" class="img-fluid rounded z-depth-1" %}
+		{% include figure.html path="assets/img/gan_comp/glaciers_200_epochs.png" title="Training Distribution" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 	<div class="col-sm mt-3 mt-md-0">
-		{% include figure.html path="assets/img/gan_comp/mountains_200_epochs.png" title="Training Distribution" class="img-fluid rounded z-depth-1" %}
+		{% include figure.html path="assets/img/gan_comp/mountains_200_epochs.png" title="Training Distribution" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
 <div class="row">
@@ -111,10 +111,10 @@ Weights are randomly initialized before the training, with the discriminator bei
 <br>
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0">
-		{% include figure.html path="assets/img/gan_comp/seas_200_epochs.png" title="Training Distribution" class="img-fluid rounded z-depth-1" %}
+		{% include figure.html path="assets/img/gan_comp/seas_200_epochs.png" title="Training Distribution" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 	<div class="col-sm mt-3 mt-md-0">
-		{% include figure.html path="assets/img/gan_comp/streets_200_epochs.png" title="Training Distribution" class="img-fluid rounded z-depth-1" %}
+		{% include figure.html path="assets/img/gan_comp/streets_200_epochs.png" title="Training Distribution" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
 <div class="row">
@@ -131,7 +131,7 @@ The losses for training each class are plotted on a graph. There is a clear down
 
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0">
-		{% include figure.html path="assets/img/gan_comp/gen_img2.png" title="Generated Images Sample" class="img-fluid rounded z-depth-1" %}
+		{% include figure.html path="assets/img/gan_comp/gen_img2.png" title="Generated Images Sample" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
 <div class="caption">

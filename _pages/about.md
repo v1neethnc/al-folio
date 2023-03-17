@@ -6,7 +6,7 @@ subtitle: Computer Science Graduate Student at <a href="https://umbc.edu/">Unive
 
 profile:
   align: right
-  image: profile.jpg
+  image: profile.png
   image_circular: false # crops the image to make it circular
   address: >
     <p>University of Maryland, Baltimore County</p>

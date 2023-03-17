@@ -3,7 +3,7 @@ layout: page
 title: Benchmarking CNNs on Image Classification Task
 description: Project to compare the performance of VGG16, VGG19, ResNet50, and ResNet101 on an image classification task.
 importance: 5
-img: assets/img/vgg_resnet/wandb_stats.png
+img: assets/img/vgg_resnet/vgg19_training_graphs.png
 category: academic
 ---
 
@@ -38,10 +38,10 @@ The training and testing of the models was done on the default architecture that
 
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0">
-		{% include figure.html path="assets/img/vgg_resnet/training_distribution.png" title="Training Distribution" class="img-fluid rounded z-depth-1" %}
+		{% include figure.html path="assets/img/vgg_resnet/training_distribution.png" title="Training Distribution" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 	<div class="col-sm mt-3 mt-md-0">
-		{% include figure.html path="assets/img/vgg_resnet/validation_distribution.png" title="Testing Distribution" class="img-fluid rounded z-depth-1" %}
+		{% include figure.html path="assets/img/vgg_resnet/validation_distribution.png" title="Testing Distribution" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
 
@@ -67,7 +67,7 @@ With a fixed batch size of 32, and images rescaled to 150 x 150, the ResNet50 an
 
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0">
-		{% include figure.html path="assets/img/vgg_resnet/resnet50_training_stats.png" title="ResNet50 Training" class="img-fluid rounded z-depth-1" %}
+		{% include figure.html path="assets/img/vgg_resnet/resnet50_training_stats.png" title="ResNet50 Training" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
 <div class="row">
@@ -78,7 +78,7 @@ With a fixed batch size of 32, and images rescaled to 150 x 150, the ResNet50 an
 <br>
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0">
-		{% include figure.html path="assets/img/vgg_resnet/resnet101_training_stats.png" title="ResNet101 Training" class="img-fluid rounded z-depth-1" %}
+		{% include figure.html path="assets/img/vgg_resnet/resnet101_training_stats.png" title="ResNet101 Training" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
 <div class=row>
@@ -92,7 +92,7 @@ The base architecture was kept non-trainable to preserve the Imagenet weights, w
 
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0">
-		{% include figure.html path="assets/img/vgg_resnet/vgg16_training_graphs.png" title="VGG16 Training" class="img-fluid rounded z-depth-1" %}
+		{% include figure.html path="assets/img/vgg_resnet/vgg16_training_graphs.png" title="VGG16 Training" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
 <div class="row">
@@ -103,7 +103,7 @@ The base architecture was kept non-trainable to preserve the Imagenet weights, w
 <br>
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0">
-		{% include figure.html path="assets/img/vgg_resnet/vgg19_training_graphs.png" title="VGG19 Training" class="img-fluid rounded z-depth-1" %}
+		{% include figure.html path="assets/img/vgg_resnet/vgg19_training_graphs.png" title="VGG19 Training" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
 <div class="row">
@@ -128,7 +128,7 @@ While variance in the GPU utilization between VGG and ResNet is already document
 
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0">
-		{% include figure.html path="assets/img/vgg_resnet/wandb_stats.png" title="Resource Consumption Statistics" class="img-fluid rounded z-depth-1" %}
+		{% include figure.html path="assets/img/vgg_resnet/wandb_stats.png" title="Resource Consumption Statistics" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
 <div class="row">

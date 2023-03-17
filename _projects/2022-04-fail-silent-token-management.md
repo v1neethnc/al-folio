@@ -109,7 +109,7 @@ To test the code, a simple bash file is provided. Executing that file will run t
 
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0">
-		{% include figure.html path="assets/img/token_mgmt/outputs_client_command_sh.png" title="Command Execution" class="img-fluid rounded z-depth-1" %}
+		{% include figure.html path="assets/img/token_mgmt/outputs_client_command_sh.png" title="Command Execution" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
 <div class="caption">
@@ -121,7 +121,7 @@ The server results are not printed onto the console. Instead, a log file for eac
 
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0">
-		{% include figure.html path="assets/img/token_mgmt/server_65000_log.png" title="Log of server running on port 65000" class="img-fluid rounded z-depth-1" %}
+		{% include figure.html path="assets/img/token_mgmt/server_65000_log.png" title="Log of server running on port 65000" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
 <div class="caption">
